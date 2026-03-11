@@ -1,4 +1,4 @@
-# PS-MLIE-KC: A Plaintext-Sensitive Multi-Layered Image Encryption Framework
+# PS-MLIE-KC: A Plaintext-Sensitive Multi-Layered Image Encryption Framework for Medical Images Using King’s Random Walk, Deep Learning, and Chaotic Maps
 
 This repository contains the official implementation of **PS-MLIE-KC**, a robust encryption framework designed for medical imagery. The system integrates deep learning-based confusion, King’s Random Walk spatial scrambling, and dual chaotic maps to ensure high sensitivity to plaintext and resistance against cryptographic attacks.
 
@@ -10,7 +10,7 @@ Ensuring the confidentiality of medical images (MRI, CT, X-rays) is a critical c
 * **Chaotic Diffusion:** Employs Logistic and Piecewise Linear Chaotic Maps (PWLCM) for XOR-based diffusion.
 
 ## 📁 Dataset Information
-The repository includes standard medical images used for research validation:
+The repository includes sample medical image used for research validation:
 * **Categories:** Brain, Chest, Heart, and Kidney scans.
 * **Format:** Square images (e.g., 256x256) used for diagnostic testing.
 
@@ -29,30 +29,30 @@ The framework is a hybrid implementation:
 ## 🚀 Usage Instructions
 
 ### 1. Encryption & Decryption (Python)
-To encrypt an image:
+* To encrypt an image:
 
-python encryptionDecryption.py --input path/to/image.png --output encrypted.png
+`python encryptionDecryption.py --input path/to/image.png --output encrypted.png`
 
-To decrypt the image:
-python encryptionDecryption.py --input encrypted.png --output decrypted.png
+* To decrypt the image:
+`python encryptionDecryption.py --input encrypted.png --output decrypted.png`
 
 ## 2. Security Analysis (MATLAB)
-Open the Analysis folder in MATLAB.
-Run the analysis script:
+* Open the Analysis folder in MATLAB.
+* Run the analysis script:
 
-MATLAB
-run NPCR.m
+`MATLAB
+run NPCR.m`
 
-Run all files to view the generated NPCR, UACI, and correlation graphs in the output window.
+* Run all the files to view the generated NPCR, UACI, and correlation graphs in the output window.
 
 ## 🔬 Methodology
-Preprocessing: Intensity-based seed generation.
+* Preprocessing: Intensity-based seed generation.
 
-Confusion: KeyNet-driven pixel permutation.
+* Confusion: KeyNet-driven pixel permutation.
 
-Scrambling: King's piece randomized traversal.
+* Scrambling: King's piece randomized traversal.
 
-Diffusion: Dual-layer XOR with chaotic maps.
+* Diffusion: Dual-layer XOR with chaotic maps.
 
 ## 📜 Citations
 If you use this work, please cite:
