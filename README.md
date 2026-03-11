@@ -10,9 +10,15 @@ Ensuring the confidentiality of medical images (MRI, CT, X-rays) is a critical c
 * **Chaotic Diffusion:** Employs Logistic and Piecewise Linear Chaotic Maps (PWLCM) for XOR-based diffusion.
 
 ## 📁 Dataset Information
-The repository includes sample medical image used for research validation:
+The repository includes sample medical images used for research validation:
 * **Categories:** Brain, Chest, Heart, and Kidney scans.
 * **Format:** Square images (e.g., 256x256) used for diagnostic testing.
+  
+The images utilized for experimentation were obtained from multiple publicly available datasets available on Kaggle.
+[Dataset 1](https://www.kaggle.com/code/kmader/training-u-net-on-tb-images-to-segment-lungs/input)
+[Dataset 2](https://www.kaggle.com/code/atifaliak/kidneyvision/input)
+[Dataset 3](https://www.kaggle.com/datasets/nikhilroxtomar/ct-heart-segmentation/data)
+[Dataset 4](https://www.kaggle.com/datasets/saeedehkamjoo/standard-test-images)
 
 ## 💻 Code Information
 The framework is a hybrid implementation:
