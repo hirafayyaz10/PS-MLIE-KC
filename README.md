@@ -34,6 +34,7 @@ The framework is a hybrid implementation:
 `python encryptionDecryption.py --input path/to/image.png --output encrypted.png`
 
 * To decrypt the image:
+  
 `python encryptionDecryption.py --input encrypted.png --output decrypted.png`
 
 ## 2. Security Analysis (MATLAB)
@@ -60,3 +61,15 @@ PS-MLIE-KC: A Plaintext-Sensitive Multi-Layered Image Encryption Framework for M
 
 ## ⚖️ License
 This project is licensed under the MIT License.
+
+## Contribution Guidelines
+
+Contributions to improve the efficiency of KeyNet or add new chaotic maps are welcome. Please follow these steps:
+
+* Fork the repository.
+
+* Create a new branch (`git checkout -b feature-improvement`).
+
+* Commit your changes.
+
+* Push to the branch and open a Pull Request.
